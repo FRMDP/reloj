@@ -1,6 +1,6 @@
 # Reloj CSS + JS
 
-Primer ejemplo de trabajo con JS y CSS. Para iniciarlo:
+Primer ejemplo de trabajo con JS y CSS. Para iniciarlo  :
 
 ```bash
 # clonen el proyecto:
