@@ -1,6 +1,8 @@
 # Reloj CSS + JS
 
-Primer ejemplo de trabajo con JS y CSS. Para iniciarlo  :
+[Demo en vivo](https://utn-mdp.github.io/reloj/)
+
+### Para iniciarlo:
 
 ```bash
 # clonen el proyecto:
