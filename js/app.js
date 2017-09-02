@@ -14,7 +14,12 @@ function fijarAgujas() {
 	minutero.style.transform = `rotate(${gradosMinutos}deg)`;
 
 	const segundos = ahora.getSeconds();
-	const gradosSegundos = 90 + segundos * 6; 
+	const gradosSegundos = 90 + segundos * 6;
+	if(gradosSegundos === 90) {
+        segundero.style.transition = 'none'
+    } else {
+        segundero.style.transition = ''
+    } 
 	segundero.style.transform = `rotate(${gradosSegundos}deg)`;
 }
 
