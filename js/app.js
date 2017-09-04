@@ -17,8 +17,12 @@ function fijarAgujas() {
 
 	const segundos = ahora.getSeconds();
 	const gradosSegundos = 90 + segundos * 6;
-	segundero.style.transform = `rotate(${gradosSegundos}deg)`;
-	
+
+	if(gradosSegundos === 90) {
+        segundero.style.transition = 'none'
+    } else {
+        segundero.style.transition = ''
+    } 
 	reloj.style.display = "block";
 }
 
