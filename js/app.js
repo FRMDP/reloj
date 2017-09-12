@@ -1,7 +1,6 @@
 const horario = document.querySelector('.horario');
 const minutero = document.querySelector('.minutero');
 const segundero = document.querySelector('.segundero');
-//const agujas = document.getElementsByClassName('aguja');// esto trae un arreglo
 const reloj = document.getElementById('clock');
 
 function fijarAgujas() {
@@ -21,14 +20,5 @@ function fijarAgujas() {
 	
 	reloj.style.display = "block";
 }
-
-/*function begun(){
-	Array.prototype.forEach.call(agujas,(aplyBlock));
-	reloj.style.display = "block";
-}
-
-function aplyBlock(item){
-	item.style.display = "block";
-}*/
 
 setInterval(fijarAgujas, 1000);
