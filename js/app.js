@@ -1,6 +1,7 @@
 const horario = document.querySelector('.horario');
 const minutero = document.querySelector('.minutero');
 const segundero = document.querySelector('.segundero');
+const reloj = document.getElementById('clock');
 
 function fijarAgujas() {
 	const ahora = new Date();
@@ -19,8 +20,10 @@ function fijarAgujas() {
         segundero.style.transition = 'none'
     } else {
         segundero.style.transition = ''
-    } 
+    }
 	segundero.style.transform = `rotate(${gradosSegundos}deg)`;
+	
+	reloj.style.display = "block";
 }
 
 setInterval(fijarAgujas, 1000);
