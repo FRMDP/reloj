@@ -50,6 +50,7 @@ body {
 	height: 2px;
 	transform: translateY(-1px);
 }
+<<<<<<< HEAD
 
 .diallines {
   position: absolute;
@@ -143,3 +144,5 @@ span {
   left: 50%;
   margin-left: -9px;
 }
+=======
+>>>>>>> c385948c88ba9fa0abde53477b185ebd975e9e3e
